@@ -9,7 +9,7 @@ import userRouter from './routes/userRoute.js'
 
 // -------- app config ----------
 const app = express()
-const port = process.env.PORT || 4000
+const port = process.env.PORT
 // const host = '0.0.0.0'
 connetDB()
 connectCloudinary()
